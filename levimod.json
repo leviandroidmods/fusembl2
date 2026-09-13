@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "materialbinloader",
+  "version": "1.0.0",
+  "minecraft_versions": [
+    ">=1.26.45.1"
+  ],
+  "published_at": "2026-09-13T11:11:58Z",
+  "info": {
+    "name": "MaterialBinLoader",
+    "author": "mcbegamerxx954",
+    "description": "A shader loader for Minecraft Bedrock that supports loading MaterialBins.",
+    "homepage_url": "https://github.com/leviandroidmods/fusembl2",
+    "icon": "assets/icon.png",
+    "tags": [
+      "Shaders",
+      "Visual",
+      "Utility"
+    ]
+  },
+  "release_assets": {
+    "include": [
+      "*.so"
+    ],
+    "labels": {
+      "libfusembl2_fixed.so": "MaterialBinLoader"
+    }
+  }
+}
